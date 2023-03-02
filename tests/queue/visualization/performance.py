@@ -8,7 +8,7 @@ from src.queue.operations.time import get_queue_push_time
 class TestQueuePerformance(unittest.TestCase):
 
     def test_performance_vs_queue(self):
-        sample: int = 300
+        sample: int = 1000
         data = [get_queue_push_time(10, i) for i in range(sample)]
 
         queue_times = [i[0].values[0] for i in data]
@@ -33,7 +33,7 @@ class TestQueuePerformance(unittest.TestCase):
         fig.add_trace(
             go.Scatter(x=times[:init],
                        y=heap_times[:init],
-                       name="Queue",
+                       name="Custom Heap",
                        visible=True,
                        line=dict(color="#000000", dash="dash")))
 
