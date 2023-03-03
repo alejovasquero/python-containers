@@ -3,8 +3,8 @@ from collections import deque
 from queue import PriorityQueue
 from random import randint, sample
 
-from src.queue.operations.comparison import greater, less
-from src.queue.priority_heap import QueueElement, Heap
+from src.priority_queue.operations.comparison import greater, less
+from src.priority_queue.priority_heap import QueueElement, Heap
 
 
 class PriorityTest(unittest.TestCase):

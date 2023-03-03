@@ -5,7 +5,7 @@ from random import randint
 import pandas as pd
 from numpy import greater
 
-from src.queue.priority_heap import QueueElement, Heap
+from src.priority_queue.priority_heap import QueueElement, Heap
 
 
 def take_algorithm_time(array, func):

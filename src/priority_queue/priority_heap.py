@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from collections import deque
 
-from src.queue.operations.comparison import less
+from src.priority_queue.operations.comparison import less
 
 
 class QueueElement:

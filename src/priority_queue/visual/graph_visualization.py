@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 from igraph import Graph, EdgeSeq
 
-from src.queue.priority_heap import Heap
+from src.priority_queue.priority_heap import Heap
 
 
 def draw_heap(heap: Heap):

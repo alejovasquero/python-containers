@@ -2,7 +2,7 @@ import unittest
 
 import plotly.graph_objects as go
 
-from src.queue.operations.time import get_queue_push_time
+from src.priority_queue.operations.time import get_queue_push_time
 
 
 class TestQueuePerformance(unittest.TestCase):

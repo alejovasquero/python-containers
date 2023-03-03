@@ -2,8 +2,8 @@ import unittest
 from collections import deque
 from random import randint
 
-from src.queue.operations.comparison import less, greater
-from src.queue.priority_heap import Heap, QueueElement
+from src.priority_queue.operations.comparison import less, greater
+from src.priority_queue.priority_heap import Heap, QueueElement
 
 
 class HeapTest(unittest.TestCase):

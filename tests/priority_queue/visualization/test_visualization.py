@@ -1,9 +1,9 @@
 import unittest
 from random import randint
 
-from src.queue.operations.comparison import less
-from src.queue.priority_heap import Heap, QueueElement
-from src.queue.visual.graph_visualization import draw_heap
+from src.priority_queue.operations.comparison import less
+from src.priority_queue.priority_heap import Heap, QueueElement
+from src.priority_queue.visual.graph_visualization import draw_heap
 
 
 class HeapTest(unittest.TestCase):
@@ -16,5 +16,4 @@ class HeapTest(unittest.TestCase):
             element = QueueElement(value, value)
             heap.push_element(element)
 
-        print(heap)
         draw_heap(heap)
